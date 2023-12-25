@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./static/background.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+input[type="text"] {
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5CDB95; /* Stylish green background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #379683;
+}
+
+#newsContent h2, #wikipediaContent h2, #sentimentResult h2 {
+    padding-top: 20px;
+}
+
+#newsContent p, #wikipediaContent p, #sentimentResult p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sentiment-analysis {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sentimentResult, #sentimentDetails {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
